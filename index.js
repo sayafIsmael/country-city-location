@@ -1,5 +1,5 @@
-import allcountries from './country.json'
-import allCities from './cities.json'
+const allcountries =  require('country-city-location/country')
+const allCities =  require('country-city-location/cities')
 
 const getCountries = () =>{
     return allcountries
@@ -9,11 +9,14 @@ const getcities = () =>{
     return allCities
 }
 
-const getCityByCountryCode = (countryCode) =>{
+const getCitiesByCountryCode = (countryCode) =>{
     return cities.filter(city => city.country.toLowerCase() === countryCode.toLowerCase())
 }
 
 const countries = getCountries()
 const cities = getcities()
 
-export {countries, cities, getCityByCountryCode}
+module.exports.countries = countries;
+module.exports.cities = cities;
+module.exports.getCitiesByCountryCode = getCitiesByCountryCode;
+
