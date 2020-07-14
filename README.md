@@ -38,11 +38,52 @@ const {countries, cities, getCitiesByCountryCode} = require('country-city-locati
 console.log(countries) // All country name and country code in array
 
 ```
+//response example
+[
+    {"name": "Afghanistan", "code": "AF"},
+    {"name": "Aland Islands", "code": "AX"},
+]
 
 ```
 ### `All cities`
 console.log(cities) //All city with country code, longitude and latitude
 
+```
+//response example
+
+[
+  {
+    "country": "AD",
+    "name": "Sant Julia de Loria",
+    "lat": "42.46372",
+    "lng": "1.49129"
+  },
+  {
+    "country": "AD",
+    "name": "Pas de la Casa",
+    "lat": "42.54277",
+    "lng": "1.73361"
+  }
+]
+
+```
+
 ### `Get Cities By CountryCode`
 console.log(getCitiesByCountryCode('US')) //Put country code in the parameter. Get all city with country code, longitude and latitude
 
+```
+[
+  {
+    "country": "AD",
+    "name": "Sant Julia de Loria",
+    "lat": "42.46372",
+    "lng": "1.49129"
+  },
+  {
+    "country": "AD",
+    "name": "Pas de la Casa",
+    "lat": "42.54277",
+    "lng": "1.73361"
+  }
+]
+```
