@@ -35,9 +35,10 @@ const {countries, cities, getCitiesByCountryCode} = require('country-city-locati
 ```
 
 ### `countries`
-console.log(countries) // All country name and country code in array
+Get all country name and country code in array
 
 ```
+console.log(countries)
 //response example
 [
     {"name": "Afghanistan", "code": "AF"},
@@ -46,9 +47,11 @@ console.log(countries) // All country name and country code in array
 
 ```
 ### `All cities`
-console.log(cities) //All city with country code, longitude and latitude
+Get all city with country code, longitude and latitude
 
 ```
+console.log(cities)
+
 //response example
 
 [
@@ -69,9 +72,12 @@ console.log(cities) //All city with country code, longitude and latitude
 ```
 
 ### `Get Cities By CountryCode`
-console.log(getCitiesByCountryCode('US')) //Put country code in the parameter. Get all city with country code, longitude and latitude
+Put country code in the parameter and get all city with country code, longitude and latitude
 
 ```
+console.log(getCitiesByCountryCode('US'))
+
+//response example
 [
   {
     "country": "AD",
