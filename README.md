@@ -42,7 +42,7 @@ console.log(countries)
 //response example
 [
     {"name": "Afghanistan", "code": "AF"},
-    {"name": "Aland Islands", "code": "AX"},
+    {"name": "Aland Islands", "code": "AX"}
 ]
 
 ```
@@ -80,16 +80,16 @@ console.log(getCitiesByCountryCode('US'))
 //response example
 [
   {
-    "country": "AD",
-    "name": "Sant Julia de Loria",
-    "lat": "42.46372",
-    "lng": "1.49129"
+    "country": "US",
+    "name": "Bay Minette",
+    "lat": "30.88296",
+    "lng": "-87.77305"
   },
   {
-    "country": "AD",
-    "name": "Pas de la Casa",
-    "lat": "42.54277",
-    "lng": "1.73361"
+    "country": "US",
+    "name": "Edna",
+    "lat": "28.97859",
+    "lng": "-96.64609"
   }
 ]
 ```
