@@ -64,14 +64,14 @@ console.log(cities)
 [
   {
     "countryCode": "AD",
-    "city": "Sant Julia de Loria",
+    "name": "Sant Julia de Loria",
     "lat": "42.46372",
     "lng": "1.49129",
     "country":"Andorra"
   },
   {
     "countryCode": "AD",
-    "city": "Pas de la Casa",
+    "name": "Pas de la Casa",
     "lat": "42.54277",
     "lng": "1.73361",
     "country":"Andorra"
@@ -90,14 +90,14 @@ console.log(getCitiesByCountryCode('US'))
 //response example
 [
   {
-    "city":"Renton",
+    "name":"Renton",
     "lat":"47.4758",
     "lng":"-122.1905",
     "country":"United States",
     "countryCode":"US"
   },
   {
-    "city":"Chehalis",
+    "name":"Chehalis",
     "lat":"46.6637",
     "lng":"-122.9647",
     "country":"United States",
