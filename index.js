@@ -10,7 +10,7 @@ const getcities = () =>{
 }
 
 const getCitiesByCountryCode = (countryCode) =>{
-    return cities.filter(city => city.iso2.toLowerCase() === countryCode.toLowerCase())
+    return cities.filter(city => city.countryCode.toLowerCase() === countryCode.toLowerCase())
 }
 
 const countries = getCountries()
