@@ -64,17 +64,17 @@ console.log(cities)
 [
   {
     "name": "Sant Julia de Loria",
-    "countryCode": "AD",
     "lat": "42.46372",
     "lng": "1.49129",
-    "country":"Andorra"
+    "country":"Andorra",
+    "countryCode": "AD",
   },
   {
     "name": "Pas de la Casa",
-    "countryCode": "AD",
     "lat": "42.54277",
     "lng": "1.73361",
-    "country":"Andorra"
+    "country":"Andorra",
+    "countryCode": "AD",
   }
 ]
 

@@ -1,6 +1,6 @@
 {
   "name": "country-city-location",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "A very usefull package for getting country name, country code, longitude, latitude. Get all cities of a country by country code.",
   "main": "index.js",
   "keywords": [
