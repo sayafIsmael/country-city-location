@@ -1,6 +1,6 @@
 {
   "name": "country-city-location",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "A very usefull package for getting country name, country code, longitude, latitude. Get all cities of a country by country code.",
   "main": "index.js",
   "keywords": [
@@ -17,7 +17,7 @@
     "url": "git+https://github.com/sayafIsmael/country-city-location.git"
   },
   "author": "Sayaf",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/sayafIsmael/country-city-location/issues"
   },
